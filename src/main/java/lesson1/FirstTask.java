@@ -3,6 +3,9 @@ package lesson1;
 import java.math.BigInteger;
 import java.util.Scanner;
 
+/**
+ * Вычислить n-ое треугольного число(сумма чисел от 1 до n), n! (произведение чисел от 1 до n)
+ */
 public class FirstTask {
     public static void main(String[] args) {
         var scanner = new Scanner(System.in);

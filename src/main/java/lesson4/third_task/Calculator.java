@@ -32,7 +32,7 @@ public class Calculator {
                 case "undo":
                     System.out.println("Undo operation");
                     opers.removeLast();
-                    currentOperation = opers.removeLast();
+                    currentOperation = opers.peekLast();
                     System.out.println(String.format("Current operation is %s", currentOperation));
                     continue;
                 case "exit":

@@ -18,7 +18,7 @@ public class FirstTask {
         System.out.println("List after reverse using Collections.reverse()");
         Collections.reverse(list);
         System.out.println(list);
-        System.out.println("New list after reverse using static method :)");
+        System.out.println("New list after reverse list using static method :)");
         var newList = reverse(list);
         System.out.println(newList);
     }

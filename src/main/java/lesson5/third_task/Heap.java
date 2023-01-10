@@ -18,7 +18,6 @@ public class Heap {
 
         int length = array.length;
 
-        // Moving from the first element that isn't a leaf towards the root
         for (int i = length / 2 - 1; i >= 0; i--) {
             heapify(array, length, i);
         }
